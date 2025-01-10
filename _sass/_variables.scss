@@ -64,7 +64,9 @@
    $text-color                 : $dark-gray;
    $border-color               : $lighter-gray;
    
-   $primary-color              : #7a8288;
+   // $primary-color              : #7a8288;
+   $primary-color             : #51247A; // UQ Purple
+   $secondary-color           : #DAAA00; // UQ Gold
    $success-color              : #62c462;
    $warning-color              : #f89406;
    $danger-color               : #ee5f5b;
@@ -98,11 +100,21 @@
    
    
    /* links */
-   $link-color                 : $info-color;
-   $link-color-hover           : mix(#000, $link-color, 25%);
-   $link-color-visited         : mix(#fff, $link-color, 25%);
-   $masthead-link-color        : $primary-color;
-   $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+   $link-color               : #6B2B9F; // Brighter purple for better visibility
+   $link-color-hover         : $secondary-color; // Gold on hover for contrast
+   $link-color-visited       : mix(#fff, #6B2B9F, 15%);
+
+   // $link-color                 : #51247A;
+   // $link-color-hover           : mix(#000, #51247A, 25%);
+   // $link-color-visited         : mix(#fff, #51247A, 25%);
+   // Add underline for better visibility
+   
+   // $link-color                 : $info-color;
+   // $link-color-hover           : mix(#000, $link-color, 25%);
+   // $link-color-visited         : mix(#fff, $link-color, 25%);
+   /* header colors */
+   $masthead-link-color      : $primary-color;
+   $masthead-link-color-hover: $secondary-color; 
    
    
    /*
